@@ -29,9 +29,12 @@ define("AUTOR", "Thiago"); //tradicional, antiga
 const EMPRESA = "thigas ent."; // nova, moderna
 
 echo "<p>".AUTOR." trabalha na empresa ".EMPRESA."</p>";
-
 ?>
 
+
+<h2>Saída de dados simplificada/direta</h2>
+<p>Estamos no <?=$curso?> em <?=$ano?>.</p>
+<p> <?=AUTOR?> trabalha na empresa <?=EMPRESA?></p>
 
 
 </body>
