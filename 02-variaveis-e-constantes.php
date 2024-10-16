@@ -34,6 +34,7 @@ echo "<p>".AUTOR." trabalha na empresa ".EMPRESA."</p>";
 
 
 <h2>Saída de dados simplificada/direta</h2>
+
 <p class="alert alert-success">Estamos no <span class="text-bg-danger"><?=$curso?></span> em <span class="text-bg-primary"><?=$ano?></span>.</p>
 <p> <?=AUTOR?> trabalha na empresa <?=EMPRESA?></p>
 
