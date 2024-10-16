@@ -31,8 +31,5 @@ $idade = 25;
 
 
 
-
-
-
 </body>
 </html>
