@@ -22,6 +22,31 @@ $cursos = array("Node.js", "Design", "Nutrição");
 <p>Rock Progressivo: <?=$bandas[2]?> </p>
 <p>ontem estivemos com a turma de <?=$cursos[2]?></p>
 
+<hr>
+
+<?php
+// Array associativo
+$filme = [
+"titulo" => "Senhor dos Anéis",
+"autor" => "J.R.R Tolkien",
+"lancamento" => 2001,
+"genero" => "Fantasia"
+
+];
+?>
+
+<h2>Acessando os dados do array associativo</h2>
+<p>O filme <?=$filme["titulo"]?> foi lançado em <?=$filme["lancamento"]?> </p>
+<hr>
+
+<h2>Comandos uteis para analise de Arrays</h2>
+
+<h3>print_r(NomeArray)</h3>
+<pre><?=print_r($bandas)?></pre>
+
+<h3>var_dump(NomeArray)</h3>
+<pre><?=var_dump($bandas)?></pre>
+
     </div>
 </body>
 </html>
