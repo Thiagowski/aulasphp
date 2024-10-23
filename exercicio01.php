@@ -14,6 +14,7 @@
 
 
         <?php
+        // array associativo
         $dados = [
             "nome_usuario" => "thiago.silva",
             "senha" => "233444555",
@@ -32,7 +33,27 @@
             </li>
         </ol>
 
-    
+        <!-- Array NUMÉRICO/INDEXADO -->
+        <?php
+        $dados2 = [
+        
+            'chapolin.colorado',
+            '123teste',
+            30,
+            'São Paulo',
+            ["(11)999-5478", "(11)924-5478"]
+ 
+        ]
+        ?>
+
+<h2>Versão de saida usando arrays NUMÉRICO/INDEXADO</h2>
+        <ol>
+            <li>Nome: <?= $dados2[0] ?></li>
+            <li>Idade: <?= $dados2[2] ?></li>
+            <li>Cidade: <?= $dados2[3] ?></li>
+            <li>Celular: <?= $dados2[4][0] ?></li>
+            <li>Celular: <?= $dados2[4][1] ?></li>
+        </ol>
 
 </body>
 
