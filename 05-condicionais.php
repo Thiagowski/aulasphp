@@ -80,5 +80,7 @@ switch($produto){
 
 </div>
 
+<?php include "redes-sociais.html" ?>
+
 </body>
 </html>
