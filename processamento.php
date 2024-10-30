@@ -24,9 +24,16 @@ $mensagem = $_POST["mensagem"];
 <ul>
     <li>Nome: <?=$nome?></li>
     <li>E-mail: <?=$email?></li>
-    <li>Data de nascimento: <?=$nascimento?></li>
-    <li>Mensagem: <?=$mensagem?></li>
     
+    <!-- Verificando se os campos nascimento e mensagem NÃO ESTÃO VAZIOS. Note o uso do operador ! para inverter da função empty() -->
+    <?php if(!empty($nascimento)){ ?>
+    <li>Data de nascimento: <?=$nascimento?></li>
+    <?php } ?>
+
+    <?php if(!empty($mensagem)){ ?>
+    <li>Mensagem: <?=$mensagem?></li>
+    <?php } ?>
+
 </ul>
 
 
